@@ -1,0 +1,44 @@
+/*
+ Theme Name:   Storefront Child
+ Theme URI:    https://webbiex.com
+ Description:  A child theme for the Storefront theme
+ Author:       Mohsen Shata
+ Author URI:   https://webbiex.com
+ Template:     storefront
+ Version:      1.0.0
+*/
+
+/* Add custom styles below */
+
+body {
+    background-color: 
+    #f5f5f5;
+}
+
+
+/* Style for the search input box */
+#city-search {
+    width: 100%; /* Make the search box full-width */
+    padding: 10px 15px; /* Add padding inside the search box */
+    font-size: 16px; /* Adjust the font size */
+    border: 1px solid #c4c4c4; /* Add a border with your main site color */
+    border-radius: 5px; /* Add rounded corners */
+    margin-bottom: 20px; /* Add space below the search box */
+    transition: border-color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+/* Style when the search box is focused */
+#city-search:focus {
+    outline: none; /* Remove the default outline */
+    border-color: #bfbfbf; /* Darken the border color on focus */
+}
+
+/* Optional hover effect */
+#city-search:hover {
+    border-color: #bfbfbf; /* Darken the border color on hover */
+}
+
+/* Additional styling for search results */
+#search-results {
+    margin-top: 10px; /* Space between search box and results */
+}
